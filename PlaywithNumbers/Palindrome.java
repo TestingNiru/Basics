@@ -3,6 +3,7 @@ package Com.PlaywithNumbers;
 public class Palindrome {
 	public static void isPalindrome(int num) {
 		int r;
+		int akshat;
 		int sum=0;
 		int t;
 		t=num;
