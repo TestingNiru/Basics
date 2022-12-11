@@ -1,0 +1,19 @@
+package Com.PlaywithNumbers;
+
+public class countString {
+
+	public static void main(String[] args) {
+		String name[]= {"java","python","java","c+","c#","c#"};
+		int count=0;
+		for(int i=0;i<name.length;i++) {
+			for(int j=0;j<name.length;j++) {
+				if(name[i].equals(name[j])) {
+					System.out.println(name[i]+"="+count);
+					
+				}
+			}
+		
+		
+	}
+
+}}

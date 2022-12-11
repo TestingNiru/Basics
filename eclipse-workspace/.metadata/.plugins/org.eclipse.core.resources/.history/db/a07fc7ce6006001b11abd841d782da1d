@@ -1,0 +1,8 @@
+package JavaOOPS;
+
+public class ClassCar {
+
+	public static void pnt() {
+	System.out.println("Learning OOPS concept");
+	}
+}

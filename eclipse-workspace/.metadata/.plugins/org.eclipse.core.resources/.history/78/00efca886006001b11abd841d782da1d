@@ -1,0 +1,6 @@
+package JavaOOPS;
+
+public class ClassCar {
+
+	System.Out.Println("Learning OOPS concept");
+}

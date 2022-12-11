@@ -1,0 +1,14 @@
+package pack2;
+
+public class Run1 {
+
+	public static void main(String[] args) {
+	A a1=new A();
+	a1.test();
+	B b1=new B();
+	b1.test();
+	b1.test2();
+
+	}
+
+}

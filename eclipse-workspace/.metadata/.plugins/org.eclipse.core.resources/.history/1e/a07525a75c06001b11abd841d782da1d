@@ -1,0 +1,46 @@
+package JavaOOPS;
+
+class car{
+	
+	int model;
+	String type;
+	double price;
+	
+	car (int m, String t, double p){ 
+		this.model = m; 
+		this.type = t; 
+		this.price = p;
+		
+		void show () {
+		
+		System.out.println("Model No : "+ m );
+		System.out.println("Model Type :"+ t);
+		System.out.println("Model Price :" + p);
+		
+		
+	/*public void show(int a, String b, double c) {
+	
+		System.out.println("Model No : "+ a );
+		System.out.println("Model Type :"+ b);
+		System.out.println("Model Price :" + c);
+		
+	} */
+		}
+	
+}
+
+public class TestDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Java Demo");
+		
+		car c1 = new car(1000, "BMW", 25000.00);
+	
+		//c1.show(1000, "BMW", 25000.00);
+		c1.show();
+		
+
+	}
+
+}

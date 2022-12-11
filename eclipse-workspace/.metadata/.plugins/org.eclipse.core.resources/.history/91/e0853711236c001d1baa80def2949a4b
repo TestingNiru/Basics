@@ -1,0 +1,23 @@
+package javaprgms;
+
+public class ndhgst {
+
+	public static void main(String[] args) {
+		Integer []intary= {100,200,350,380};
+		int n=intary.length;
+		int Highest=Integer.MIN_VALUE;
+		int ScndHighest=Integer.MIN_VALUE;
+		for(int i=0;i<n;i++) {
+			if(intary[i]>Highest) {
+				ScndHighest=Highest;
+				Highest=intary[i];
+			}
+		
+		if(intary[i]<Highest && intary[i]>ScndHighest) {
+			ScndHighest=intary[i];
+		}}
+		System.out.println(ScndHighest);
+
+	}
+
+}

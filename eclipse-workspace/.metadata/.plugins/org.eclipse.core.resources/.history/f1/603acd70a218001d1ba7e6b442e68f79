@@ -1,0 +1,33 @@
+package Com.PlaywithNumbers;
+
+import java.util.HashSet;
+
+public class duplicateWords {
+
+	public static void main(String[] args) {
+	String str="java is my prgm fav java prgm";
+	String [] words=str.split(" ");
+		
+		HashSet st=new HashSet();
+		for(String s:words)
+		{
+			if(st.add(s)==false) {
+				System.out.println(s);
+				
+			}
+		}
+	
+				}
+				
+				}
+		
+	
+		
+	
+				
+			
+	
+
+	
+
+
