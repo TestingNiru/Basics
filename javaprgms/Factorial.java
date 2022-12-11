@@ -3,7 +3,8 @@ package javaprgms;
 public class Factorial {
 	public static  int facteriol(int num) {
 		int fact=1;
-		"my messages"
+
+		"my messagess"
 		for(int i=1;i<=num;i++) {
 			fact=fact*i;
 		}
