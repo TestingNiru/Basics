@@ -1,0 +1,8 @@
+Eng=30
+Math=40
+Science=40
+Total=Eng+Math+Science
+Print "Total Marks"
+Print Total
+Print "Average Marks"
+Print Total/3

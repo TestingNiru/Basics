@@ -1,0 +1,8 @@
+PRINT "HELLO, I AM ARYAN AND THIS IS A LECTURE ABOUT MATHS - AREA OF RECTANGLES"
+Print "Enter value of Length : ";
+INPUT L$
+Print  "enter value of Breadth : ";
+INPUT B$
+PRINT "The Area of the rectangle : " ;
+Area  =  L$ * B$
+PRINT Area

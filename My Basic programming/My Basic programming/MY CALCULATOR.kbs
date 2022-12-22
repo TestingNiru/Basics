@@ -1,0 +1,9 @@
+Print "HELLO. I AM ARYAN AND I LIVE IN NORWICH, ENGLAND"
+Print" THIS MY CALCULATOR"
+Print "Enter value of A ";
+INPUT A$
+Print  "enter value of B";
+INPUT B$
+Print" Value of c=";
+ c=A$ +B$
+Print "c=A$ +B$"

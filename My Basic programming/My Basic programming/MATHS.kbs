@@ -1,0 +1,10 @@
+PRINT "Hello, this my lecture on cuboids on their volume , total surface area and area of the 4 walls"
+PRINT "Length of the cuboid : " ;
+INPUT  L$
+PRINT "Breadth of the cuboid :" ;
+INPUT  B$
+PRINT "Heigtht of the cuboid :" ;
+INPUT  H$
+PRINT "The Vol. of CUBOID =";
+
+PRINT  Vol."

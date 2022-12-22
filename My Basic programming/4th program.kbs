@@ -1,0 +1,6 @@
+Print "Rectangle 's length"
+ l=20 
+ Print "Breadth"
+ b =15
+ Print "Area"
+ Print  l*b

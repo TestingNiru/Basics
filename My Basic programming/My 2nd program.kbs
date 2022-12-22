@@ -1,0 +1,8 @@
+Print "Greetings"
+Print "My name is Aryan Aneesh"
+Print "Enter value of A ";
+INPUT A$
+Print  "enter value of B";
+INPUT B$
+ C = A$ - B$
+Print C;

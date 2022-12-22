@@ -1,0 +1,13 @@
+Print "Hello"
+Print "My name is Rick"
+Print "Enter value of A ";
+INPUT A$
+Print  "enter value of B";
+INPUT B$
+
+PRINT " THE VALUE OF C =" ;
+C =  A$ + B$
+
+PRINT C
+END
+
